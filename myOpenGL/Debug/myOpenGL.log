@@ -1,0 +1,16 @@
+﻿  LineDrawer.cpp
+d:\cg-project\myopengl\myopengl\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(96): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(100): warning C4838: 从“float”转换到“int”需要收缩转换
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(99): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(169): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(170): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(171): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(172): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(173): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(174): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\cg-project\myopengl\myopengl\myopengl\src\draw_line\linedrawer.cpp(177): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  main.cpp
+d:\cg-project\myopengl\myopengl\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  正在生成代码...
+  myOpenGL.vcxproj -> D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\myOpenGL.exe

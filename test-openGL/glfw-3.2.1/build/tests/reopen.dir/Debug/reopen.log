@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/junfeng liu/Desktop/myOpenGL/test-openGL/glfw-3.2.1/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/junfeng liu/Desktop/myOpenGL/test-openGL/glfw-3.2.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  reopen.c
+  glad.c
+  正在生成代码...
+  reopen.vcxproj -> C:\Users\junfeng liu\Desktop\myOpenGL\test-openGL\glfw-3.2.1\build\tests\Debug\reopen.exe
