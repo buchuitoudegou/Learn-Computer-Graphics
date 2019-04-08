@@ -4,6 +4,8 @@
 #include "../headers.h";
 
 namespace CreateWindow {
+#define SCR_WIDTH 800
+#define SCR_HEIGHT 800
 	void framebufferSizeCallback(GLFWwindow* window, int width, int height);
 
 	void processInput(GLFWwindow* window);

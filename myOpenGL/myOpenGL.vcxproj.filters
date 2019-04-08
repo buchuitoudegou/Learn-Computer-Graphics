@@ -28,6 +28,9 @@
     <Filter Include="源文件\draw-line">
       <UniqueIdentifier>{9c738b62-5947-4d1a-9497-0f38ae4c1896}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\cube">
+      <UniqueIdentifier>{ab029718-61d2-4976-ad79-2a2b8030ec87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\test-openGL\src\glad.c">
@@ -59,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="src\create_window\CreateWindow.cpp">
       <Filter>源文件\create-window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3d_cube\cube.cpp">
+      <Filter>源文件\cube</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -101,5 +107,19 @@
     <ClInclude Include="src\draw_line\LineDrawer.h">
       <Filter>源文件\draw-line</Filter>
     </ClInclude>
+    <ClInclude Include="src\3d_cube\cube.h">
+      <Filter>源文件\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\3d_cube\cube.fs">
+      <Filter>源文件\cube</Filter>
+    </None>
+    <None Include="src\3d_cube\cube.vs">
+      <Filter>源文件\cube</Filter>
+    </None>
   </ItemGroup>
 </Project>
