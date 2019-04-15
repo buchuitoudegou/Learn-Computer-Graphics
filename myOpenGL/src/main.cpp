@@ -6,6 +6,8 @@
 
 #include "3d_cube/cube.h"
 
+#include "solar_sys/Solar.h"
+
 int main() {
 	/*LineDrawer drawer = LineDrawer();
 	drawer.drawLine();*/
@@ -13,5 +15,7 @@ int main() {
 	solution.createGUI();*/
 	Cube cube;
 	cube.drawCube();
+	Solar solar;
+	solar.drawSolarSys();
 	return 0;
 }

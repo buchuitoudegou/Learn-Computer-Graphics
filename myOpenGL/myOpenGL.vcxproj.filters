@@ -31,6 +31,9 @@
     <Filter Include="源文件\cube">
       <UniqueIdentifier>{ab029718-61d2-4976-ad79-2a2b8030ec87}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Solar-sys">
+      <UniqueIdentifier>{07d0f667-5d40-42ae-9fb9-2fe383ca22f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\test-openGL\src\glad.c">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="src\3d_cube\cube.cpp">
       <Filter>源文件\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solar_sys\Solar.cpp">
+      <Filter>源文件\Solar-sys</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="src\Shader.h">
       <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solar_sys\Solar.h">
+      <Filter>源文件\Solar-sys</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

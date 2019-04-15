@@ -6,7 +6,7 @@ void Cube::updateParams() {
 	double newTime = glfwGetTime();
 	if (newTime - updateTime > 0.1) {
 		// translation
-		if (fabs(movementx) >= 3.0f) {
+		if (fabs(movementx) >= 4.0f) {
 			moveDir = -moveDir;
 		}
 		movementx += moveDir * TRANS_STEP;
@@ -76,7 +76,7 @@ void Cube::drawCube() {
 
 		glm::mat4 model = glm::mat4(1.0f);
 		model = glm::translate(model, cubePositions);
-		model = glm::translate(model, glm::vec3(movementx, 0, 0));
+		model = glm::translate(model, glm::vec3(movementx + 2, 0, 0));
 		model = glm::scale(model, glm::vec3(scale, scale, scale));
 		model = glm::rotate(model, glm::radians(45.0f), glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::rotate(model, glm::radians(rotation), glm::vec3(0.0f, 1.0f, 0.0f));
