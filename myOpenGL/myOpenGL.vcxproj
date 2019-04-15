@@ -137,6 +137,7 @@
     <ClCompile Include="src\create_window\CreateWindow.cpp" />
     <ClCompile Include="src\draw_line\LineDrawer.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\projection_cube\projection_cube.cpp" />
     <ClCompile Include="src\solar_sys\Solar.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="src\draw_line\LineDrawer.h" />
     <ClInclude Include="src\draw_triangle\TriangleDrawer.h" />
     <ClInclude Include="src\headers.h" />
+    <ClInclude Include="src\projection_cube\projection_cube.h" />
     <ClInclude Include="src\Shader.h" />
     <ClInclude Include="src\solar_sys\Solar.h" />
   </ItemGroup>

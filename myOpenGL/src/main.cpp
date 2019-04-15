@@ -4,18 +4,20 @@
 
 //#include "draw_line\linedrawer.h"
 
-#include "3d_cube/cube.h"
-
-#include "solar_sys/Solar.h"
+//#include "3d_cube/cube.h"
+#include "projection_cube/projection_cube.h"
+//#include "solar_sys/Solar.h"
 
 int main() {
 	/*LineDrawer drawer = LineDrawer();
 	drawer.drawLine();*/
 	/*TriangleDrawer solution(OLD_VERSION);
 	solution.createGUI();*/
-	Cube cube;
+	/*Cube cube;
 	cube.drawCube();
 	Solar solar;
-	solar.drawSolarSys();
+	solar.drawSolarSys();*/
+	Projection solution;
+	solution.drawCube();
 	return 0;
 }

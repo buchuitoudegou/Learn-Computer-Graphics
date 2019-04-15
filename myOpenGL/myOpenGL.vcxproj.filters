@@ -34,6 +34,9 @@
     <Filter Include="源文件\Solar-sys">
       <UniqueIdentifier>{07d0f667-5d40-42ae-9fb9-2fe383ca22f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\projection-cube">
+      <UniqueIdentifier>{501a575d-efa9-4613-aeb7-64cc24217ca1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\test-openGL\src\glad.c">
@@ -71,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="src\solar_sys\Solar.cpp">
       <Filter>源文件\Solar-sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\projection_cube\projection_cube.cpp">
+      <Filter>源文件\projection-cube</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +127,9 @@
     </ClInclude>
     <ClInclude Include="src\solar_sys\Solar.h">
       <Filter>源文件\Solar-sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\projection_cube\projection_cube.h">
+      <Filter>源文件\projection-cube</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
