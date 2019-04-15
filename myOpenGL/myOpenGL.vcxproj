@@ -70,13 +70,13 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(LocalDebuggerWorkingDirectory)\includes;D:\CG-PROJECT\myOpenGL\myOpenGL\test-openGL\include;D:\CG-PROJECT\myOpenGL\myOpenGL\test-openGL\glfw-3.2.1\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(LocalDebuggerWorkingDirectory)\includes;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(LocalDebuggerWorkingDirectory)\includes;D:\CG-PROJECT\myOpenGL\myOpenGL\test-openGL\include;D:\CG-PROJECT\myOpenGL\myOpenGL\test-openGL\glfw-3.2.1\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(LocalDebuggerWorkingDirectory)\includes;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
