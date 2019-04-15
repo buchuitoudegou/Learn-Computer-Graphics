@@ -37,6 +37,9 @@
     <Filter Include="源文件\projection-cube">
       <UniqueIdentifier>{501a575d-efa9-4613-aeb7-64cc24217ca1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\camera">
+      <UniqueIdentifier>{985b6c7f-66bc-4034-ac16-e420f314abbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\test-openGL\src\glad.c">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="src\projection_cube\projection_cube.cpp">
       <Filter>源文件\projection-cube</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera\Camera.cpp">
+      <Filter>源文件\camera</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="src\projection_cube\projection_cube.h">
       <Filter>源文件\projection-cube</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera\Camera.h">
+      <Filter>源文件\camera</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
