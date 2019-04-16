@@ -134,6 +134,7 @@
     <ClCompile Include="..\imgui\imgui_widgets.cpp" />
     <ClCompile Include="..\test-openGL\src\glad.c" />
     <ClCompile Include="src\3d_cube\cube.cpp" />
+    <ClCompile Include="src\camera\Camera.cpp" />
     <ClCompile Include="src\create_window\CreateWindow.cpp" />
     <ClCompile Include="src\draw_line\LineDrawer.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="..\imgui\imstb_textedit.h" />
     <ClInclude Include="..\imgui\imstb_truetype.h" />
     <ClInclude Include="src\3d_cube\cube.h" />
+    <ClInclude Include="src\camera\Camera.h" />
     <ClInclude Include="src\create_triangle\CreateTriangle.hpp" />
     <ClInclude Include="src\create_window\CreateWindow.hpp" />
     <ClInclude Include="src\draw_line\LineDrawer.h" />

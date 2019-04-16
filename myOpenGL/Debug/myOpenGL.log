@@ -1,23 +1,15 @@
-﻿  cube.cpp
-d:\cg-project\myopengl\myopengl\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-  main.cpp
-d:\cg-project\myopengl\myopengl\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-  projection_cube.cpp
-d:\cg-project\myopengl\myopengl\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-  正在生成代码...
-  glad.c
-glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(context.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(init.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(input.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(monitor.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(vulkan.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(window.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_init.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_time.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(win32_tls.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_tls.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_window.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(egl_context.obj)”或在“D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-  myOpenGL.vcxproj -> D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\myOpenGL.exe
+﻿  projection_cube.cpp
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(38): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(45): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\projection_cube\projection_cube.cpp(91): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+  myOpenGL.vcxproj -> F:\学习\大三下\计算机图形学\Learn-Computer-Graphics\Debug\myOpenGL.exe
