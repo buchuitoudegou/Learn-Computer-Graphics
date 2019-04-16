@@ -41,7 +41,7 @@ void mouseCallback(GLFWwindow*, double xpos, double ypos) {
 	Projection::yPos = ypos;
 }
 
-void scrollCallback(GLFWwindow*, double xoffset, double yoffset) {
+void scrollCallback(GLFWwindow* window, double xoffset, double yoffset) {
 	Projection::myCamera.mouseScrollHandler(yoffset);
 }
 
@@ -69,14 +69,13 @@ void Projection::drawCube() {
 	glfwSetScrollCallback(window, scrollCallback);
 	glfwSetKeyCallback(window, keyCallback);
 	glEnable(GL_DEPTH_TEST);
-	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 	Shader shader("./src/projection_cube/pcube.vs", "./src/projection_cube/pcube.fs");
 	GLuint VAO, VBO;
 	GLfloat curFrame = 0.0f, lastFrame = 0.0f;
 	bool menu = true;
 	bool perspectiveOrOrtho = true;
 	bool placeToNewPlace = false;
-	bool myCam = true;
+	bool myCam = false;
 	// create VAO VBO
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
@@ -162,6 +161,12 @@ void Projection::drawCube() {
 		glfwMakeContextCurrent(window);
 		glfwSwapBuffers(window);
 		lastFrame = curFrame;
+		if (keys[GLFW_KEY_SPACE]) {
+			glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+		}
+		if (keys[GLFW_KEY_B]) {
+			glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+		}
 	}
 	glDeleteVertexArrays(1, &VAO);
 	glDeleteBuffers(1, &VBO);
