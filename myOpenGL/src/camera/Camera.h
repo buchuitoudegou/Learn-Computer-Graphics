@@ -28,7 +28,7 @@ public:
 	GLfloat sensitivity;
 	GLfloat zoom;
 
-	Camera(glm::vec3 pos = glm::vec3(0, 0, 0), glm::vec3 up_ = glm::vec3(0, 0, 0), GLfloat ya = -90.0f, GLfloat pit = -10.0f);
+	Camera(glm::vec3 pos = glm::vec3(0, 0, 0), glm::vec3 up_ = glm::vec3(0, 1, 0), GLfloat ya = -90.0f, GLfloat pit = -10.0f);
 	glm::mat4 getViewMat();
 	void keyboardHandler(Movement, GLfloat dtime);
 	void mouseMoveHandler(GLfloat, GLfloat, GLboolean constrainPitch = true);

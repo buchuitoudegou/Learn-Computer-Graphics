@@ -6,7 +6,8 @@
 
 //#include "3d_cube/cube.h"
 #include "projection_cube/projection_cube.h"
-//#include "solar_sys/Solar.h"
+#include "solar_sys/Solar.h"
+#include "lighting/Lighting.h"
 
 int main() {
 	/*LineDrawer drawer = LineDrawer();
@@ -17,7 +18,9 @@ int main() {
 	cube.drawCube();
 	Solar solar;
 	solar.drawSolarSys();*/
-	Projection solution;
-	solution.drawCube();
+	/*Projection solution;
+	solution.drawCube();*/
+	Lighting solution;
+	solution.createLightingScene();
 	return 0;
 }

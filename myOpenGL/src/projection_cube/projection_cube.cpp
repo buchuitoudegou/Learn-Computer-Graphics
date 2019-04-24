@@ -70,6 +70,7 @@ void Projection::drawCube() {
 	glfwSetKeyCallback(window, keyCallback);
 	glEnable(GL_DEPTH_TEST);
 	Shader shader("./src/projection_cube/pcube.vs", "./src/projection_cube/pcube.fs");
+	//Shader shader("./src/lighting/lighting_cube.vs", "./src/lighting/lighting_cube.fs");
 	GLuint VAO, VBO;
 	GLfloat curFrame = 0.0f, lastFrame = 0.0f;
 	bool menu = true;
@@ -101,7 +102,8 @@ void Projection::drawCube() {
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		shader.use();
-		
+		/*shader.setVec3("objectColor", glm::vec3(1.0f, 0.0f, 0.0f));
+		shader.setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f));*/
 		// projection and view
 		glm::mat4 view = glm::mat4(1.0f);
 		glm::mat4 projection = glm::mat4(1.0f);
@@ -118,6 +120,8 @@ void Projection::drawCube() {
 		} else {
 			view = myCamera.getViewMat();
 		}
+		/*myCamera.position = glm::vec3(1.0, 1.0, 3.0);
+		view = myCamera.getViewMat();*/
 		shader.setMat4("projection", projection);
 		shader.setMat4("view", view);
 
