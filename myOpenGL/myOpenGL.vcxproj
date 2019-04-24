@@ -139,6 +139,7 @@
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\projection_cube\projection_cube.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\solar_sys\Solar.cpp" />
   </ItemGroup>
   <ItemGroup>
