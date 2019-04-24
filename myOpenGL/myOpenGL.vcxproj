@@ -132,11 +132,11 @@
     <ClCompile Include="..\imgui\imgui_impl_glfw.cpp" />
     <ClCompile Include="..\imgui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="..\imgui\imgui_widgets.cpp" />
-    <ClCompile Include="..\test-openGL\src\glad.c" />
     <ClCompile Include="src\3d_cube\cube.cpp" />
     <ClCompile Include="src\camera\Camera.cpp" />
     <ClCompile Include="src\create_window\CreateWindow.cpp" />
     <ClCompile Include="src\draw_line\LineDrawer.cpp" />
+    <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\projection_cube\projection_cube.cpp" />
     <ClCompile Include="src\solar_sys\Solar.cpp" />
@@ -157,6 +157,7 @@
     <ClInclude Include="src\draw_line\LineDrawer.h" />
     <ClInclude Include="src\draw_triangle\TriangleDrawer.h" />
     <ClInclude Include="src\headers.h" />
+    <ClInclude Include="src\lighting\Lighting.h" />
     <ClInclude Include="src\projection_cube\projection_cube.h" />
     <ClInclude Include="src\Shader.h" />
     <ClInclude Include="src\solar_sys\Solar.h" />

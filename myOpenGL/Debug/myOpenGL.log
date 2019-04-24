@@ -1,15 +1,2 @@
-﻿  projection_cube.cpp
-d:\cg-project\myopengl\myopengl\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(38): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(45): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\projection_cube\projection_cube.cpp(90): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+﻿  glad.c
   myOpenGL.vcxproj -> D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\myOpenGL.exe

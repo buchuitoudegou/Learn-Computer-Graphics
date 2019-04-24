@@ -40,11 +40,11 @@
     <Filter Include="源文件\camera">
       <UniqueIdentifier>{985b6c7f-66bc-4034-ac16-e420f314abbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\lighting">
+      <UniqueIdentifier>{75446f5e-323f-44ee-ae54-205b20829790}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\test-openGL\src\glad.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -83,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="src\camera\Camera.cpp">
       <Filter>源文件\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +142,9 @@
     </ClInclude>
     <ClInclude Include="src\camera\Camera.h">
       <Filter>源文件\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lighting\Lighting.h">
+      <Filter>源文件\lighting</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
