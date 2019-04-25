@@ -1,5 +1,5 @@
 ﻿  Lighting.cpp
-d:\cg-project\myopengl\myopengl\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-d:\cg-project\myopengl\myopengl\myopengl\src\lighting\lighting.cpp(6): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cg-project\myopengl\myopengl\myopengl\src\lighting\lighting.cpp(7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-  myOpenGL.vcxproj -> D:\CG-PROJECT\myOpenGL\myOpenGL\Debug\myOpenGL.exe
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\lighting\lighting.cpp(6): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\lighting\lighting.cpp(7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  myOpenGL.vcxproj -> F:\学习\大三下\计算机图形学\Learn-Computer-Graphics\Debug\myOpenGL.exe
