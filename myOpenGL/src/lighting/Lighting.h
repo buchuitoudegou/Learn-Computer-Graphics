@@ -62,6 +62,7 @@ private:
 	const float lightRadius = 4.0f;
 	float camx = 0.0f, camy = 0.0f, camz = 6.0f;
 	float ambient = 0.1f, diffuse = 1.0f, specular = 0.5f;
+	int specularPow = 32;
 	void updateLightPos();
 public:
 	void createLightingScene();

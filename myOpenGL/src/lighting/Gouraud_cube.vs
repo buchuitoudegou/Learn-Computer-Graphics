@@ -16,6 +16,7 @@ uniform mat4 projection;
 uniform float ambientStrength;
 uniform float diffuseStrength;
 uniform float specularStrength;
+uniform int specularPow;
 
 void main()
 {
@@ -40,7 +41,7 @@ void main()
     // float specularStrength = 1.0; // this is set higher to better show the effect of Gouraud shading 
     vec3 viewDir = normalize(viewPos - Position);
     vec3 reflectDir = reflect(-lightDir, norm);  
-    float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32);
+    float spec = pow(max(dot(viewDir, reflectDir), 0.0), specularPow);
     vec3 specular = specularStrength * spec * lightColor;      
 
     LightingColor = ambient + diffuse + specular;

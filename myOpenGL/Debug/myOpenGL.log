@@ -1,5 +1,10 @@
-﻿  Lighting.cpp
+﻿  shadow_mapping.cpp
 f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\create_window\createwindow.hpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\lighting\lighting.cpp(6): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\lighting\lighting.cpp(7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\shadow_mapping\shadow_mapping.cpp(76): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\shadow_mapping\shadow_mapping.cpp(251): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\shadow_mapping\shadow_mapping.cpp(252): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\shadow_mapping\shadow_mapping.cpp(256): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\shadow_mapping\shadow_mapping.cpp(257): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\shadow_mapping\shadow_mapping.cpp(259): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\学习\大三下\计算机图形学\learn-computer-graphics\myopengl\src\shadow_mapping\shadow_mapping.cpp(260): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   myOpenGL.vcxproj -> F:\学习\大三下\计算机图形学\Learn-Computer-Graphics\Debug\myOpenGL.exe

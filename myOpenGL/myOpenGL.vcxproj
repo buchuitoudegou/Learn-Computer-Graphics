@@ -141,6 +141,7 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\projection_cube\projection_cube.cpp" />
     <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\shadow_mapping\shadow_mapping.cpp" />
     <ClCompile Include="src\solar_sys\Solar.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +163,7 @@
     <ClInclude Include="src\lighting\Lighting.h" />
     <ClInclude Include="src\projection_cube\projection_cube.h" />
     <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\shadow_mapping\shadow_mapping.h" />
     <ClInclude Include="src\solar_sys\Solar.h" />
   </ItemGroup>
   <ItemGroup>

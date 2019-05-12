@@ -43,6 +43,9 @@
     <Filter Include="源文件\lighting">
       <UniqueIdentifier>{75446f5e-323f-44ee-ae54-205b20829790}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\shadow-mapping">
+      <UniqueIdentifier>{ed2ee7ef-2e06-4382-b429-ed843675ff5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="src\lighting\Lighting.cpp">
       <Filter>源文件\lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shadow_mapping\shadow_mapping.cpp">
+      <Filter>源文件\shadow-mapping</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +157,9 @@
     </ClInclude>
     <ClInclude Include="src\lighting\Lighting.h">
       <Filter>源文件\lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shadow_mapping\shadow_mapping.h">
+      <Filter>源文件\shadow-mapping</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

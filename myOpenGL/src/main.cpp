@@ -8,6 +8,7 @@
 #include "projection_cube/projection_cube.h"
 #include "solar_sys/Solar.h"
 #include "lighting/Lighting.h"
+#include "shadow_mapping\shadow_mapping.h"
 
 int main() {
 	/*LineDrawer drawer = LineDrawer();
@@ -20,7 +21,9 @@ int main() {
 	solar.drawSolarSys();*/
 	/*Projection solution;
 	solution.drawCube();*/
-	Lighting solution;
-	solution.createLightingScene();
+	/*Lighting solution;
+	solution.createLightingScene();*/
+	ShadowMapping solution;
+	solution.createShadowScene();
 	return 0;
 }

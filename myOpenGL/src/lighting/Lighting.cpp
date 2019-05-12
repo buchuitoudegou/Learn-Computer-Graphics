@@ -74,6 +74,7 @@ void Lighting::createLightingScene() {
 		shaderPtr->setFloat("ambientStrength", ambient);
 		shaderPtr->setFloat("diffuseStrength", diffuse);
 		shaderPtr->setFloat("specularStrength", specular);
+		shaderPtr->setInt("specularPow", specularPow);
 		// perspective projection
 		glm::mat4 projection = glm::mat4(1.0f);
 		projection = glm::perspective(glm::radians(camera.zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
@@ -115,6 +116,7 @@ void Lighting::createLightingScene() {
 		ImGui::SliderFloat("ambient", &ambient, 0.0f, 1.0f);
 		ImGui::SliderFloat("diffuse", &diffuse, 0.0f, 1.0f);
 		ImGui::SliderFloat("specular", &specular, 0.0f, 1.0f);
+		ImGui::SliderInt("specularPow", &specularPow, 2, 64); 
 		ImGui::End();
 		ImGui::Render();
 		ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
